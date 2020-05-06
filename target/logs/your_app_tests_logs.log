@@ -1,0 +1,354 @@
+2020-05-05 17:47:43,081 [Test worker] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class kafka.ProducerTest
+2020-05-05 17:47:43,589 [Test worker] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class kafka.ProducerTest
+2020-05-05 17:47:43,777 [Test worker] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class kafka.ProducerTest
+2020-05-05 17:47:43,797 [Test worker] INFO  org.jsmart.zerocode.core.runner.ZeroCodeUnitRunner - System property zerocode.junit=null
+2020-05-05 17:47:43,806 [Test worker] ERROR org.jsmart.zerocode.core.utils.SmartUtils - Exception occurred while parsing the 'Test Scenario' file:{}. Check if it is present n in correct formatscenario/produce_record.json
+2020-05-05 17:47:43,825 [Test worker] INFO  org.jsmart.zerocode.core.engine.listener.ZeroCodeTestReportListener - #ZeroCode: Test run completed for this runner. Generating test reports and charts. 
+* For more examples, helps, Kafka streams, APIs and Load use-cases visit https://zerocode.io
+2020-05-05 17:48:30,206 [Test worker] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class kafka.ProducerTest
+2020-05-05 17:48:30,715 [Test worker] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class kafka.ProducerTest
+2020-05-05 17:48:30,895 [Test worker] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class kafka.ProducerTest
+2020-05-05 17:48:30,908 [Test worker] INFO  org.jsmart.zerocode.core.runner.ZeroCodeUnitRunner - System property zerocode.junit=null
+2020-05-05 17:48:31,079 [Test worker] INFO  org.jsmart.zerocode.core.runner.ZeroCodeMultiStepsScenarioRunnerImpl - 
+-------------------------- BDD: Scenario:Produce Message to Kafka Topic -------------------------
+
+2020-05-05 17:48:31,094 [Test worker] INFO  org.jsmart.zerocode.core.runner.ZeroCodeMultiStepsScenarioRunnerImpl - 
+-------------------------------------------------------------------------
+     Executing Scenario Count No. or parameter No. or Row No. | 0 | 
+-------------------------------------------------------------------------
+2020-05-05 17:48:31,133 [Test worker] INFO  org.jsmart.zerocode.core.kafka.helper.KafkaConsumerHelper - 
+---------------------------------------------------------
+kafka.bootstrap.servers - localhost:11092
+---------------------------------------------------------
+2020-05-05 17:48:31,134 [Test worker] INFO  org.jsmart.zerocode.core.kafka.client.BasicKafkaClient - brokers:localhost:11092, topicName:demo-topic, operation:produce, requestJson:{"recordType":"JSON","records":[{"key":"101","value":"Hello World"}]}
+2020-05-05 17:48:31,135 [Test worker] ERROR org.jsmart.zerocode.core.kafka.client.BasicKafkaClient - Exception during operation:produce, topicName:demo-topic, error:resource kafka_servers/kafka_producer.properties not found.
+2020-05-05 17:48:31,141 [Test worker] INFO  org.jsmart.zerocode.core.runner.ZeroCodeMultiStepsScenarioRunnerImpl - ###Exception while executing a step in the zerocode dsl.
+2020-05-05 17:48:31,143 [Test worker] INFO  org.jsmart.zerocode.core.runner.StepNotificationHandler - Exception occurred while executing Scenario:[Produce Message to Kafka Topic], --> Step:[produce_a_record], Details: java.lang.RuntimeException: ZeroCode Step execution failed. Details:java.lang.RuntimeException: java.lang.IllegalArgumentException: resource kafka_servers/kafka_producer.properties not found.
+2020-05-05 17:48:31,147 [Test worker] INFO  org.jsmart.zerocode.core.runner.ZeroCodeMultiStepsScenarioRunnerImpl - 
+--------- TEST-STEP-CORRELATION-ID: 0617af64-be1c-4abd-9316-353406d7b7fd ---------
+*requestTimeStamp:2020-05-05T17:48:31.127769
+step:produce_a_record
+id:null
+url:kafka-topic:demo-topic
+method:produce
+request:
+{
+  "recordType" : "JSON",
+  "records" : [ {
+    "key" : "101",
+    "value" : "Hello World"
+  } ]
+} 
+--------- TEST-STEP-CORRELATION-ID: 0617af64-be1c-4abd-9316-353406d7b7fd ---------
+Response:
+-response unavailable-
+*responseTimeStamp:2020-05-05T17:48:31.142389 
+*Response delay:14.0 milli-secs 
+---------> Expected Response: <----------
+{Oops! Not decided. Possibly due to non JSON content was encountered. See log for details} 
+ 
+-done-
+
+2020-05-05 17:48:31,291 [Test worker] INFO  org.jsmart.zerocode.core.engine.listener.ZeroCodeTestReportListener - #ZeroCode: Test run completed for this runner. Generating test reports and charts. 
+* For more examples, helps, Kafka streams, APIs and Load use-cases visit https://zerocode.io
+2020-05-05 17:48:31,378 [Test worker] INFO  org.jsmart.zerocode.core.domain.builders.ExtentReportsFactory - Where were the tests fired? Ans: OS:Mac OS X, Architecture:x86_64, Java:11.0.4, Vendor:AdoptOpenJDK
+2020-05-05 17:49:06,218 [Test worker] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class kafka.ProducerTest
+2020-05-05 17:49:06,785 [Test worker] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class kafka.ProducerTest
+2020-05-05 17:49:07,021 [Test worker] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class kafka.ProducerTest
+2020-05-05 17:49:07,043 [Test worker] INFO  org.jsmart.zerocode.core.runner.ZeroCodeUnitRunner - System property zerocode.junit=null
+2020-05-05 17:49:07,188 [Test worker] INFO  org.jsmart.zerocode.core.runner.ZeroCodeMultiStepsScenarioRunnerImpl - 
+-------------------------- BDD: Scenario:Produce Message to Kafka Topic -------------------------
+
+2020-05-05 17:49:07,202 [Test worker] INFO  org.jsmart.zerocode.core.runner.ZeroCodeMultiStepsScenarioRunnerImpl - 
+-------------------------------------------------------------------------
+     Executing Scenario Count No. or parameter No. or Row No. | 0 | 
+-------------------------------------------------------------------------
+2020-05-05 17:49:07,246 [Test worker] INFO  org.jsmart.zerocode.core.kafka.helper.KafkaConsumerHelper - 
+---------------------------------------------------------
+kafka.bootstrap.servers - localhost:11092
+---------------------------------------------------------
+2020-05-05 17:49:07,247 [Test worker] INFO  org.jsmart.zerocode.core.kafka.client.BasicKafkaClient - brokers:localhost:11092, topicName:demo-topic, operation:produce, requestJson:{"recordType":"JSON","records":[{"key":"101","value":"Hello World"}]}
+2020-05-05 17:49:07,279 [Test worker] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:11092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = zerocode-producer
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2020-05-05 17:49:07,453 [Test worker] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.5.0
+2020-05-05 17:49:07,453 [Test worker] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+2020-05-05 17:49:07,454 [Test worker] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1588718947450
+2020-05-05 17:49:07,518 [Test worker] INFO  org.jsmart.zerocode.core.kafka.send.KafkaSender - Producer sending JSON record - ProducerRecord(topic=demo-topic, partition=null, headers=RecordHeaders(headers = [], isReadOnly = false), key=101, value="Hello World", timestamp=null)
+2020-05-05 17:49:07,875 [kafka-producer-network-thread | zerocode-producer] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=zerocode-producer] Error while fetching metadata with correlation id 1 : {demo-topic=LEADER_NOT_AVAILABLE}
+2020-05-05 17:49:07,880 [kafka-producer-network-thread | zerocode-producer] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=zerocode-producer] Cluster ID: Jnk5l3A7QlKLAenpBzwy0w
+2020-05-05 17:49:08,017 [Test worker] INFO  org.jsmart.zerocode.core.kafka.send.KafkaSender - Record was sent to partition- 0, with offset- 0 
+2020-05-05 17:49:08,026 [Test worker] INFO  org.jsmart.zerocode.core.kafka.send.KafkaSender - deliveryDetails- {"status":"Ok","recordMetadata":{"offset":0,"timestamp":1588718947988,"serializedKeySize":3,"serializedValueSize":13,"topicPartition":{"hash":1774496902,"partition":0,"topic":"demo-topic"}}}
+2020-05-05 17:49:08,027 [Test worker] INFO  org.apache.kafka.clients.producer.KafkaProducer - [Producer clientId=zerocode-producer] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2020-05-05 17:49:08,036 [Test worker] INFO  org.jsmart.zerocode.core.engine.validators.ZeroCodeValidatorImpl - Comparing results via LENIENT matchers
+2020-05-05 17:49:08,041 [Test worker] INFO  org.jsmart.zerocode.core.runner.StepNotificationHandler - 
+***Step PASSED - Scenario:Produce Message to Kafka Topic -> produce_a_record
+2020-05-05 17:49:08,043 [Test worker] INFO  org.jsmart.zerocode.core.runner.ZeroCodeMultiStepsScenarioRunnerImpl - 
+--------- TEST-STEP-CORRELATION-ID: bc1d065c-8290-41bc-bbad-c59c1d3baf05 ---------
+*requestTimeStamp:2020-05-05T17:49:07.238154
+step:produce_a_record
+id:null
+url:kafka-topic:demo-topic
+method:produce
+request:
+{
+  "recordType" : "JSON",
+  "records" : [ {
+    "key" : "101",
+    "value" : "Hello World"
+  } ]
+} 
+--------- TEST-STEP-CORRELATION-ID: bc1d065c-8290-41bc-bbad-c59c1d3baf05 ---------
+Response:
+{
+  "status" : "Ok",
+  "recordMetadata" : {
+    "offset" : 0,
+    "timestamp" : 1588718947988,
+    "serializedKeySize" : 3,
+    "serializedValueSize" : 13,
+    "topicPartition" : {
+      "hash" : 1774496902,
+      "partition" : 0,
+      "topic" : "demo-topic"
+    }
+  }
+}
+*responseTimeStamp:2020-05-05T17:49:08.036306 
+*Response delay:798.0 milli-secs 
+---------> Expected Response: <----------
+{
+  "status" : "Ok",
+  "recordMetadata" : {
+    "topicPartition" : {
+      "partition" : 0,
+      "topic" : "demo-topic"
+    },
+    "offset" : "$NOT.NULL",
+    "timestamp" : "$NOT.NULL",
+    "serializedKeySize" : "$NOT.NULL",
+    "serializedValueSize" : "$NOT.NULL"
+  }
+} 
+ 
+-done-
+
+2020-05-05 17:49:08,170 [Test worker] INFO  org.jsmart.zerocode.core.runner.ZeroCodeUnitRunner - 
+**FINISHED executing all Steps for [Produce Message to Kafka Topic] **.
+Steps were:[produce_a_record]
+2020-05-05 17:49:08,173 [Test worker] INFO  org.jsmart.zerocode.core.engine.listener.ZeroCodeTestReportListener - #ZeroCode: Test run completed for this runner. Generating test reports and charts. 
+* For more examples, helps, Kafka streams, APIs and Load use-cases visit https://zerocode.io
+2020-05-05 17:49:08,284 [Test worker] INFO  org.jsmart.zerocode.core.domain.builders.ExtentReportsFactory - Where were the tests fired? Ans: OS:Mac OS X, Architecture:x86_64, Java:11.0.4, Vendor:AdoptOpenJDK
+2020-05-05 17:49:53,870 [Test worker] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class kafka.ProducerTest
+2020-05-05 17:49:54,950 [Test worker] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class kafka.ProducerTest
+2020-05-05 17:49:55,275 [Test worker] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class kafka.ProducerTest
+2020-05-05 17:49:55,298 [Test worker] INFO  org.jsmart.zerocode.core.runner.ZeroCodeUnitRunner - System property zerocode.junit=null
+2020-05-05 17:49:55,565 [Test worker] INFO  org.jsmart.zerocode.core.runner.ZeroCodeMultiStepsScenarioRunnerImpl - 
+-------------------------- BDD: Scenario:Produce Message to Kafka Topic -------------------------
+
+2020-05-05 17:49:55,586 [Test worker] INFO  org.jsmart.zerocode.core.runner.ZeroCodeMultiStepsScenarioRunnerImpl - 
+-------------------------------------------------------------------------
+     Executing Scenario Count No. or parameter No. or Row No. | 0 | 
+-------------------------------------------------------------------------
+2020-05-05 17:49:55,675 [Test worker] INFO  org.jsmart.zerocode.core.kafka.helper.KafkaConsumerHelper - 
+---------------------------------------------------------
+kafka.bootstrap.servers - localhost:11092
+---------------------------------------------------------
+2020-05-05 17:49:55,677 [Test worker] INFO  org.jsmart.zerocode.core.kafka.client.BasicKafkaClient - brokers:localhost:11092, topicName:demo-topic, operation:produce, requestJson:{"recordType":"JSON","records":[{"key":"101","value":"Hello World"}]}
+2020-05-05 17:49:55,738 [Test worker] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:11092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = zerocode-producer
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2020-05-05 17:49:56,038 [Test worker] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.5.0
+2020-05-05 17:49:56,039 [Test worker] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+2020-05-05 17:49:56,039 [Test worker] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1588718996035
+2020-05-05 17:49:56,153 [Test worker] INFO  org.jsmart.zerocode.core.kafka.send.KafkaSender - Producer sending JSON record - ProducerRecord(topic=demo-topic, partition=null, headers=RecordHeaders(headers = [], isReadOnly = false), key=101, value="Hello World", timestamp=null)
+2020-05-05 17:49:56,655 [kafka-producer-network-thread | zerocode-producer] WARN  org.apache.kafka.clients.NetworkClient - [Producer clientId=zerocode-producer] Error while fetching metadata with correlation id 1 : {demo-topic=LEADER_NOT_AVAILABLE}
+2020-05-05 17:49:56,661 [kafka-producer-network-thread | zerocode-producer] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=zerocode-producer] Cluster ID: RFwZIA4_R0qnUnhBMObcUQ
+2020-05-05 17:49:56,813 [Test worker] INFO  org.jsmart.zerocode.core.kafka.send.KafkaSender - Record was sent to partition- 0, with offset- 0 
+2020-05-05 17:49:56,827 [Test worker] INFO  org.jsmart.zerocode.core.kafka.send.KafkaSender - deliveryDetails- {"status":"Ok","recordMetadata":{"offset":0,"timestamp":1588718996767,"serializedKeySize":3,"serializedValueSize":13,"topicPartition":{"hash":1774496902,"partition":0,"topic":"demo-topic"}}}
+2020-05-05 17:49:56,827 [Test worker] INFO  org.apache.kafka.clients.producer.KafkaProducer - [Producer clientId=zerocode-producer] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2020-05-05 17:49:56,841 [Test worker] INFO  org.jsmart.zerocode.core.engine.validators.ZeroCodeValidatorImpl - Comparing results via LENIENT matchers
+2020-05-05 17:49:56,847 [Test worker] INFO  org.jsmart.zerocode.core.runner.StepNotificationHandler - 
+***Step PASSED - Scenario:Produce Message to Kafka Topic -> produce_a_record
+2020-05-05 17:49:56,848 [Test worker] INFO  org.jsmart.zerocode.core.runner.ZeroCodeMultiStepsScenarioRunnerImpl - 
+--------- TEST-STEP-CORRELATION-ID: 2a6550a9-869e-40ea-adf9-cbf4446369c1 ---------
+*requestTimeStamp:2020-05-05T17:49:55.656516
+step:produce_a_record
+id:null
+url:kafka-topic:demo-topic
+method:produce
+request:
+{
+  "recordType" : "JSON",
+  "records" : [ {
+    "key" : "101",
+    "value" : "Hello World"
+  } ]
+} 
+--------- TEST-STEP-CORRELATION-ID: 2a6550a9-869e-40ea-adf9-cbf4446369c1 ---------
+Response:
+{
+  "status" : "Ok",
+  "recordMetadata" : {
+    "offset" : 0,
+    "timestamp" : 1588718996767,
+    "serializedKeySize" : 3,
+    "serializedValueSize" : 13,
+    "topicPartition" : {
+      "hash" : 1774496902,
+      "partition" : 0,
+      "topic" : "demo-topic"
+    }
+  }
+}
+*responseTimeStamp:2020-05-05T17:49:56.840667 
+*Response delay:1184.0 milli-secs 
+---------> Expected Response: <----------
+{
+  "status" : "Ok",
+  "recordMetadata" : {
+    "topicPartition" : {
+      "partition" : 0,
+      "topic" : "demo-topic"
+    },
+    "offset" : "$NOT.NULL",
+    "timestamp" : "$NOT.NULL",
+    "serializedKeySize" : "$NOT.NULL",
+    "serializedValueSize" : "$NOT.NULL"
+  }
+} 
+ 
+-done-
+
+2020-05-05 17:49:56,990 [Test worker] INFO  org.jsmart.zerocode.core.runner.ZeroCodeUnitRunner - 
+**FINISHED executing all Steps for [Produce Message to Kafka Topic] **.
+Steps were:[produce_a_record]
+2020-05-05 17:49:56,994 [Test worker] INFO  org.jsmart.zerocode.core.engine.listener.ZeroCodeTestReportListener - #ZeroCode: Test run completed for this runner. Generating test reports and charts. 
+* For more examples, helps, Kafka streams, APIs and Load use-cases visit https://zerocode.io
+2020-05-05 17:49:57,094 [Test worker] INFO  org.jsmart.zerocode.core.domain.builders.ExtentReportsFactory - Where were the tests fired? Ans: OS:Mac OS X, Architecture:x86_64, Java:11.0.4, Vendor:AdoptOpenJDK

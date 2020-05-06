@@ -1,0 +1,4 @@
+scenarioName,scenarioLoop,stepName,stepLoop,correlationId,requestTimeStamp,responseDelayMilliSec,responseTimeStamp,result,method
+"Produce Message to Kafka Topic",0,produce_a_record,,"2a6550a9-869e-40ea-adf9-cbf4446369c1","2020-05-05T17:49:55.656516",1184.0,"2020-05-05T17:49:56.840667",PASSED,produce
+"Produce Message to Kafka Topic",0,produce_a_record,,"0617af64-be1c-4abd-9316-353406d7b7fd","2020-05-05T17:48:31.127769",14.0,"2020-05-05T17:48:31.142389",FAILED,produce
+"Produce Message to Kafka Topic",0,produce_a_record,,"bc1d065c-8290-41bc-bbad-c59c1d3baf05","2020-05-05T17:49:07.238154",798.0,"2020-05-05T17:49:08.036306",PASSED,produce
