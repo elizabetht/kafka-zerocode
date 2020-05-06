@@ -1,0 +1,32 @@
+{
+  "scenarioName": "Produce Message to Kafka Topic",
+  "steps": [
+    {
+      "name": "produce_a_record",
+      "url": "kafka-topic:demo-topic",
+      "operation": "produce",
+      "request": {
+        "recordType": "JSON",
+        "records": [
+          {
+            "key": "101",
+            "value": "Hello World"
+          }
+        ]
+      },
+      "verify": {
+        "status": "Ok",
+        "recordMetadata": {
+          "topicPartition": {
+            "partition": 0,
+            "topic": "demo-topic"
+          },
+          "offset": "$NOT.NULL",
+          "timestamp": "$NOT.NULL",
+          "serializedKeySize": "$NOT.NULL",
+          "serializedValueSize": "$NOT.NULL"
+        }
+      }
+    }
+  ]
+}
